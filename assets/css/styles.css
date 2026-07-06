@@ -786,7 +786,25 @@ section { padding: 112px 0; }
   flex-wrap: wrap;
   gap: 16px;
   justify-content: space-between;
+  align-items: flex-end;
   font-size: 0.78rem;
+}
+.footer__bottom__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.footer__madeby {
+  opacity: 0.55;
+  font-size: 0.74rem;
+}
+.footer__madeby a {
+  color: var(--magenta-sable);
+  font-weight: 600;
+  transition: opacity var(--dur) var(--ease);
+}
+.footer__madeby a:hover {
+  opacity: 0.8;
 }
 .footer__social {
   display: flex;
